@@ -6,19 +6,7 @@ class Solution:
         curr = nums[0]
         maximum = -9999999999
         most = -99999999
-        # for i in range(len(nums)):
-        #     if nums[i] in dictionary:
-        #         dictionary[nums[i]] += 1  
-        #         if(dictionary[nums[i]] > cons):
-        #             return nums[i]
-               
-        #     else:
-        #         dictionary[nums[i]] = 1
-        #     if(dictionary[nums[i]] > maximum):
-        #         maximum = nums[i]
 
-        # return maximum
-        #1 1 1 5 5 5 5
         for i in range(1 , len(nums)):
 
             if nums[i] == curr:
